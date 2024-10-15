@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan - Silviatul Munawaroh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="profile">
+                <img src="img/silvi.jpg" alt="Profile Image" class="profile-img">
+                <h1 class="name">Silviatul Munawaroh</h1>
+                <p class="description">Mahasiswa Teknik Informatika | Universitas Nurul Jadid</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="about container">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="section-content">Saya adalah mahasiswa aktif di Universitas Nurul Jadid, prodi Teknik Informatika. Saya memiliki minat besar dalam pemrograman, pengembangan perangkat lunak, dan dunia teknologi secara umum. Saya berdomisili di desa Alaskandang, kec. Besuk, asal sekolah saya SMKN 2 Kraksaan. Di SMKN 2 Kraksaan saya mengambil jurusan Rekayasa Perangkat Lunak yang kemudian saya lanjutkan pendidikan saya di Universitas Nurul Jadid mengambil prodi Teknik Informatika.</p>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">Pendidikan</h2>
+        <ul class="section">
+            <li>
+                <h3>Universitas Nurul Jadid</h3>
+                <p class="section-p">Teknik Informatika (2022 - sekarang)</p>
+            </li>
+            <li>
+                <h3>SMKN 2 Kraksaan</h3>
+                <p class="section-p">Rekayasa Perangkat Lunak (2018 - 2021)</p>
+            </li>
+            <li>
+                <h3>SMP Negeri 1 Besuk</h3>
+                <p>(2015 - 2018)</p>
+            </li>
+            <li>
+                <h3>SDN Alaskandang 1</h3>
+                <p>(2008 - 2015)</p>
+            </li>
+        </ul>
+    </section>    
+
+    <section class="container">
+        <h2 class="section-title">Motivasi Kuliah di UNUJA</h2>
+        <div class="section">
+            <p class="section-content">Motivasi saya kuliah di UNUJA adalah karena disarankan oleh orang tua yang alasannya jarak dari rumah ke kampus lumayan dekat. Selain itu saya juga tertarik karena ada jurusan Teknik Informatika untuk melanjutkan pengetahuan saya di bidang pemograman pada sekolah saya sebelumnya.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">Pengalaman dan Keterampilan</h2>
+        <div class="section">
+            <p>Dengan pengalaman dalam pengembangan web dan pemrograman, saya telah berkontribusi pada berbagai proyek baik sebagai pekerja lepas maupun dalam konteks akademis. Keahlian saya meliputi : pengembangan Front-End (HTML, CSS, JavaScript), pengembangan Backend (PHP, Python), dan desain UI/UX.</p>
+        </div>
+    </section>   
+
+    <section class="container">
+        <h2 class="section-title">Impian</h2>
+        <div class="section">
+            <p>Saya bercita-cita ingin menjadi programmer yang menciptakan solusi teknologi inovatif. Saya akan memulai dengan mempelajari dasar-dasar pemrograman seperti HTML, CSS, dan JavaScript, lalu fokus pada pengembangan backend dan frontend melalui proyek praktis. Keterampilan pemrograman memungkinkan saya membuat aplikasi yang mengotomatiskan tugas rutin. Saya berencana mempelajari berbagai bahasa pemrograman seperti Python, Java, dan C++ serta mengembangkan soft skills seperti manajemen waktu dan komunikasi. Saya juga akan mencari mentor dan bergabung dengan komunitas pemrograman untuk mendapatkan bimbingan. Dalam jangka panjang, saya ingin berkontribusi pada proyek sumber terbuka dan memimpin tim pengembangan. Saya percaya konsistensi dan ketekunan adalah kunci untuk mencapai tujuan dan memberikan dampak positif di dunia teknologi.</p>
+        </div>
+    </section> 
+
+    <section class="container">
+        <h1 id="gallery">Galeri Latihan Proyek Saya</h1>
+        <div class="gallery">
+            <div class="image-item">
+                <img src="img/project/kedai kopi.jpg" alt="coffee shop website">
+                <p>website Coffee Shop</p>
+            </div>
+            <div class="image-item">
+                <img src="img/project/Annotation 2024-04-29 125837.jpg" alt="sales website">
+                <p>Website Penjualan</p>
+            </div>
+            <div class="image-item">
+                <img src="img/project/undangan.jpg" alt="online invitation website">
+                <p>Website Undangan</p>
+            </div>
+            <div class="image-item">
+                <img src="img/project/CRUD.jpg" alt="CRUD application">
+                <p>Aplikasi CRUD</p>
+            </div>
+            <div class="image-item">
+                <img src="img/project/Design Apk .jpg" alt="APK design">
+                <p>Desain APK</p>
+            </div>
+            <div class="image-item">
+                <img src="img/project/Design Web Travel.jpg" alt="travel website design">
+                <p>Desain Web Travel</p>
+            </div>
+        </div>
+    </section>    
+
+    <section class="container">
+        <h2 class="section-title">Kontak</h2>
+        <p>Silakan isi form di bawah ini untuk mengirim pesan langsung melalui WhatsApp:</p>
+        
+        <form id="contactForm" onsubmit="sendWhatsAppMessage(); return false;">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" class="form-control" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" class="form-control" placeholder="Tulis pesan Anda" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Kirim Pesan ke WhatsApp</button>
+        </form>
+
+        <script>
+            function sendWhatsAppMessage() {
+                var name = document.getElementById("name").value;
+                var message = document.getElementById("message").value;
+                var phoneNumber = "6285735545185";
+                var url = `https://wa.me/${phoneNumber}?text=Halo%20${encodeURIComponent(name)},%0A${encodeURIComponent(message)}`;
+                window.open(url, '_blank');
+            }
+        </script>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Silviatul Munawaroh</p>
+    </footer>
+</body>
+</html>
