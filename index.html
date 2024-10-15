@@ -118,7 +118,7 @@
                 var name = document.getElementById("name").value;
                 var message = document.getElementById("message").value;
                 var phoneNumber = "6285735545185";
-                var url = `https://wa.me/${phoneNumber}?text=Halo%20${encodeURIComponent(name)},%0A${encodeURIComponent(message)}`;
+                var url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(name)}%0A${encodeURIComponent(message)}`;
                 window.open(url, '_blank');
             }
         </script>
